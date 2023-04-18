@@ -11,7 +11,7 @@ const print_results = () => {
 
   const num_arr = [num1, num2];
 
-  if (num1 < 1 || num1 > 50 || num2 < 1 || num2 > 50) {
+  if (num1 < 1 || num1 > 50 || num2 < 1 || num2 > 50 || isNaN(num1) || isNaN(num2)) {
     let message_num1 = "";
     let message_num2 = "";
     let messages = "";
