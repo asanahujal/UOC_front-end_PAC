@@ -1,0 +1,14 @@
+div.results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  margin: 0;
+}
+
+div.col-res {
+  width: 33.33%;
+  margin: 0;
+  padding: 10px;
+  word-wrap: break-word;
+}
